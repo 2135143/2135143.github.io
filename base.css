@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+body {
+    font-size: 26px;
+    font-family: "メイリオ", "ヒラギノ角ゴ ProN";
+    background-color:linen;
+}
+
+#top {
+    color: cornsilk;
+}
+
+p {
+    color: black;
+    line-height: 2em;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    color: seashell;
+    background-color:lightsteelblue;
+}
+
+.back {
+    color: whitesmoke;
+    background-color: powderblue;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+h4 {
+    color: azure;
+}
+
+.black {
+    color: black;
+}
+
+div {
+    background-image: url;
+}
+
+ul {
+    list-style: lower-alpha;
+}
+
+table {
+    border: 1px solid skyblue;
+    color: steelblue;
+}
+
+th {
+    border: 1px solid skyblue;
+}
+
+td {
+    border: 1px solid skyblue;
+}
+
+tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+tr:nth-child(even) {
+    background-color: paleturquoise;
+}
+
+.box-wrapper {
+    overflow: hidden;
+    font-size: 25px;
+    background: linear-gradient(to right, lightskyblue 0%, paleturquoise 50%,#42d3ed 100%);
+}
+
+#box1 {
+    float: left;
+    width: 24.25%;
+    height: 800px;
+    background-color:steelblue;
+    align-items: center;
+    justify-content: center;
+}
+
+#box2 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 800px;
+    background-color:rgb(171, 205, 50);
+}
+
+#box3 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 800px;
+    background-color: rgb(255, 217, 0);
+}
+
+#box4 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 800px;
+    background-color:thistle;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.shutten{
+    text-align: right;
+    font-size: 20px;
+}
+
+.box-wrapper2 {
+    overflow: hidden;
+}
+
+#box5 {
+    float: left;
+    width: 49%;
+    height: 880px;
+    background-color:teal;
+    align-items: center;
+    justify-content: center;
+}
+
+#box6 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 880px;
+    background-color:lightsalmon;
+}
+
+#box7 {
+    float: left;
+    width: 49%;
+    height: 900px;
+    margin-top: 2%;
+    background-color:rgb(255, 217, 0);
+}
+
+#box8 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 900px;
+    margin-top: 2%;
+    background-color:rosybrown;
+}
+
+button {
+    font-size: x-large;
+    border: 1px solid turquoise;
+    border-radius: 4px;
+
+    background: linear-gradient(90deg, teal, #b6d6f7);
+    color:white;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    color:black;
+}
+
+#music-result-p{
+    text-align: center;
+    color:black;
+}
+
+.box-wrapper3 {
+    overflow: hidden;
+}
+
+#box9 {
+    float: left;
+    width: 24.25%;
+    height: 550px;
+    background-color:steelblue;
+    align-items: center;
+    justify-content: center;
+}
+
+#box10 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 550px;
+    background-color:slategray;
+}
+
+#box11 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 550px;
+    background-color: rosybrown;
+}
+
+#box12 {
+    float: left;
+    margin-left: 1%;
+    width: 24.25%;
+    height: 550px;
+    background-color:thistle;
+}
+
+input[type="submit"] {
+    border: 1px solid white;
+    border-radius: 4px;
+
+    background: linear-gradient(0deg, slategray, #b6d6f7);
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+}
+
+input[type="reset"] {
+    border: 1px solid white;
+    border-radius: 4px;
+
+    background: linear-gradient(45deg, slategray, #b6d6f7);
+    color: #FFF;
+    margin-left: 2%;
+    width: 100px;
+    height: 30px;
+}
+
+form {
+    text-align: center;
+    background: linear-gradient(0deg, cornflowerblue, #b6d6f7);
+    color: white;
+}
+
+label {
+    margin-top: 4%;
+}
+
+input {
+    margin-top: 4%;
+}
+
+textarea {
+    margin-top: 4%;
+}
+
+.box-wrapper4 {
+    overflow: hidden;
+}
+
+#box13 {
+    float: left;
+    width: 49%;
+    height: 450px;
+    background-color:cadetblue;
+}
+
+#box14 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 450px;
+    background-color:cornflowerblue;
+}
+
+#box15 {
+    float: left;
+    width: 49%;
+    height: 450px;
+    margin-top: 2%;
+    background-color:skyblue;
+}
+
+#box16 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 450px;
+    margin-top: 2%;
+    background-color:slateblue;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;
+}
